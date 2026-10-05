@@ -67,12 +67,12 @@ const EXPERIMENT = {
 
     SWIPE_DISTANCE: 70,
 
-    SWIPE_DIRECTION: {
-        practice: "up",
-        practice2: "down",
-        session1: "up",
-        session2: "down"
-    }
+    SSWIPE_DIRECTION: {
+    practice: "down",
+    practice2: "up",
+    session1: "down",
+    session2: "up"
+}
 };
 
 
@@ -708,7 +708,7 @@ function showPracticeComplete() {
     messageBody.innerHTML =
         "これから本番を開始します<br>" +
         "Session 1では、評価後に<br>" +
-        "下から上へスワイプしてください";
+        "上から下へスワイプしてください";
 
     nextButton.textContent = "Session 1を始める";
 
@@ -730,7 +730,7 @@ function showPractice2Complete() {
     messageBody.innerHTML =
         "これから本番を開始します<br>" +
         "Session 2では、評価後に<br>" +
-        "上から下へスワイプしてください";
+        "下から上へスワイプしてください";
 
     nextButton.textContent = "Session 2を始める";
 
@@ -752,7 +752,7 @@ function showBreakScreen() {
     messageBody.innerHTML =
         "準備ができたら<br>" +
         "Session 2を始めてください<br><br>" +
-        "評価後は上から下へ<br>" +
+        "評価後は下から上へ<br>" +
         "スワイプしてください";
 
     nextButton.textContent = "練習を始める";
