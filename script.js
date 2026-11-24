@@ -68,10 +68,10 @@ const EXPERIMENT = {
     SWIPE_DISTANCE: 70,
 
     SWIPE_DIRECTION: {
-        practice: "up",
-        practice2: "down",
-        session1: "up",
-        session2: "down"
+        practice: "down",
+        practice2: "up",
+        session1: "down",
+        session2: "up"
     }
 };
 
